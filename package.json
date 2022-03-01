@@ -1,0 +1,22 @@
+{
+  "name": "taverna-de-mordor-bot",
+  "version": "1.0.0",
+  "description": "A Discord Bot to play RPG in chat",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "test",
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/main.ts",
+    "start": "node dist/main.js",
+    "build": "tsc"
+  },
+  "author": "guilherme-gjv",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.2"
+  }
+}
